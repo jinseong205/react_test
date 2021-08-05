@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ImportCompoenet from './R003_ImportComponenet'
+import ImportCompoenet from './R004_LifecycleEx';
 
 function App() {
   return (
