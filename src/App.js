@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import ImportCompoenet from './R005_LifecycleEx';
+import ImportCompoenet from './R007_LifecycleEx';
 
 function App() {
   return (
     <div>
       <h1>Start react 200</h1>
       <p> CSS 적용하기</p>
-      <ImportCompoenet/>
+      <ImportCompoenet prop_value = 'FromApp.js'/>
     </div>
     );
 }
