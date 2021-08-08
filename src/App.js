@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ImportCompoenet from './R010_Variable';
+import ImportCompoenet from './R011_SpreadOperator';
 
 function App() {
   return (
