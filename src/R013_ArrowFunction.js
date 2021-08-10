@@ -48,7 +48,7 @@ class R013_ArrowFunction extends Component{
 
     render(){
         return(
-            <h2>[This is ArrowFunction</h2>
+            <h2>[This is ArrowFunction]</h2>
         );
     }
 
