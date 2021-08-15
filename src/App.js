@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ImportCompoenet from './R014_Foreach';
+import ImportCompoenet from './R015_Map';
 
 function App() {
   return (
