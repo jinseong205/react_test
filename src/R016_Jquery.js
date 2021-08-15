@@ -1,0 +1,24 @@
+import React, { Component } from 'react';
+import $ from 'jquery';
+
+class R016_Jquery extends Component{
+
+    input_alert = (e) =>{
+        var inputVal = $('#inputId').val();
+        alert(inputVal);
+    }
+
+    render(){
+        return(
+        <div>
+            <h2>[This is Jquery]</h2>
+            <input id="inputId" name="inputName"></input>
+            <button id="buttonId" onClick={e => this.input_alert(e)}>
+            Jquery Button</button>
+        </div>
+        )
+    }
+
+}
+
+export default R016_Jquery
