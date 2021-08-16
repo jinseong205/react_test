@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
-import ImportCompoenet from './R022_PropsDefault';
+import ImportCompoenet from './R025_SetSate';
 
 function App() {
   return (
     <div>
       <h1>Start react 200</h1>
       <p> CSS 적용하기</p>
-      <ImportCompoenet 
-         ReactNumber={200}
-       />
+      <ImportCompoenet> 
+        <span>node from app.js</span>
+      </ImportCompoenet>
     </div>
     );
 }
