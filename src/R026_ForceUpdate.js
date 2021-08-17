@@ -29,4 +29,4 @@ class R026_ForceUpdate extends Component{
 
 }
 
-export default R026_ForceUpdate;
+export default R026_ForceUpdate; 
