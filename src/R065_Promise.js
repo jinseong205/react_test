@@ -17,4 +17,4 @@ class R065_Promise extends Component{
     
 }
 
-export default R065_Promise;
+export default R065_Promise; 
