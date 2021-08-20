@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ImportCompoenet from './R036_ReactstrapBreadcrumbs';
+import ImportCompoenet from './R065_Promise';
 import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
