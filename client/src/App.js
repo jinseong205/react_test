@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ImportCompoenet from './R065_Promise';
+import ImportCompoenet from './component/R111_ApiPostjson';
 import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
