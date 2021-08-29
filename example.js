@@ -1,4 +1,4 @@
-const oracledb = require('oracledb');
+const oracledb = require('oracledb'); 
 
 oracledb.initOracleClient({ libDir: './instantclient_19_11' });
 
