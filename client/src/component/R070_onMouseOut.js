@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class R069_onMouseOver extends Component{
+class R070_onMouseOut extends Component{
     MouseOver(tag){
         console.log('Tag : ' + tag);
     }
@@ -8,11 +8,11 @@ class R069_onMouseOver extends Component{
     render(){
         return(
             <>
-              <div onMouseOver={e=> this.MouseOver("div")}>
-                  <h3>DIV onMouseOver</h3>
+              <div onMouseOut={e=> this.MouseOver("div")}>
+                  <h3>DIV onMouseOut</h3>
               </div>
-              <input type="text" onMouseMove={e => this.MouseOver("input")}/>
-                <select onMouseOver={e =>this.MouseOver("select")}>
+              <input type="text" onMouseOut={e => this.MouseOver("input")}/>
+                <select onMouseOut={e =>this.MouseOver("select")}>
                     <option value = 'react'>react</option>
                     <option value = '200'>200</option>
                 </select>
@@ -22,4 +22,4 @@ class R069_onMouseOver extends Component{
     }
 }
 
-export default R069_onMouseOver;
+export default R070_onMouseOut;

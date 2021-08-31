@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ImportCompoenet from './component/R068_onMouseMove';
+import ImportCompoenet from './component/R075_ReactHoc';
 import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div>
       <h1>Start react 200</h1>
       <p> CSS 적용하기</p>
-      <ImportCompoenet/> 
+      <ImportCompoenet name='React200'/> 
       
     </div>
     );

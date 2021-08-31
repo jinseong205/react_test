@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class R069_onMouseOver extends Component{
+class R070_sample extends Component{
     MouseOver(tag){
         console.log('Tag : ' + tag);
     }
@@ -8,9 +8,9 @@ class R069_onMouseOver extends Component{
     render(){
         return(
             <>
-            </>
+            </> 
         )
     }
 }
 
-export default R069_onMouseOver;
+export default R070_sample;
