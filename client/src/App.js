@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ImportCompoenet from './component/R110_ApiGetJson';
+import ImportCompoenet from './component/R068_onMouseMove';
 import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
