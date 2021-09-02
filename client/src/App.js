@@ -1,18 +1,20 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './App.css';
-import ImportCompoenet from './component/R076_ContextApi';
+import ImportCompoenet from './StrAddButton';
+
 import 'bootstrap/dist/css/bootstrap.css'
 
-function App() {
-  return (
-    <div>
-      <h1>Start react 200</h1>
-      <p> CSS 적용하기</p>
-      <ImportCompoenet name='React200'/> 
-      
-    </div>
-    );
-} 
+class App extends Component {
+  render() {
+      return (
+          <div>
+              <h1>Start React 200!</h1>
+              <span>{this.props.store.getState().data.str}</span><br/>
+              <ImportCompoenet store={this.props.store}/>
+          </div>
+      );
+  }
+}
 
 
 export default App;

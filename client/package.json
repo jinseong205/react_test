@@ -12,8 +12,10 @@
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-redux": "^7.2.4",
     "react-scripts": "3.4.1",
     "reactstrap": "^8.4.1",
+    "redux": "^4.1.1",
     "shallow-equal": "^1.2.1",
     "sweetalert2": "^11.1.4",
     "web-vitals": "^1.1.2"
