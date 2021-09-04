@@ -13,4 +13,4 @@ class R070_sample extends Component{
     }
 }
 
-export default R070_sample;
+export default R070_sample ;
