@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import './App.css'
-import ImportCompoenet from './component/R085_cookieSave'
+import ImportCompoenet from './component/R087_cookieRemove'
 
 import 'bootstrap/dist/css/bootstrap.css'
 
