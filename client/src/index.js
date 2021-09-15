@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import {BrowserRouter} from 'react-router-dom';
 import './index.css';
 import App from './component/App';
-import * as servicWorker from './serviceWorker'
+import * as serviceWorker from './serviceWorker'
 import {createStore, applyMiddleware} from 'redux';
 import {Provider} from 'react-redux';
 import reducers from './reducers';
@@ -24,13 +24,12 @@ const CallMiddleware = store => nextMiddle => action => {
 const store = createStore(reducers, applyMiddleware(CallMiddleware));
 
 const listener =() =>{
-  ReactDOM.render(
+  ReactDOM.render((
     <BrowserRouter>    
       <App />
     </BrowserRouter>
+  ),document.getElementById('root'));
 
-    document.getElementById('root')
-  );
 };
 
 store.subscribe(listener);
