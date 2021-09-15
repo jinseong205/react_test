@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {BrowserRouter} from 'react-router-dom';
 import './index.css';
-import App from './App';
+import App from './component/App';
+import * as servicWorker from './serviceWorker'
 import {createStore, applyMiddleware} from 'redux';
 import {Provider} from 'react-redux';
 import reducers from './reducers';
@@ -23,9 +25,10 @@ const store = createStore(reducers, applyMiddleware(CallMiddleware));
 
 const listener =() =>{
   ReactDOM.render(
-    <Provider store = {store}>
-      <App indexProp="react"/>
-    </Provider>,
+    <BrowserRouter>    
+      <App />
+    </BrowserRouter>
+
     document.getElementById('root')
   );
 };
