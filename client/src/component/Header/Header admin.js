@@ -37,7 +37,7 @@ class Header extends Component {
                             <Link to={'/AdminDataSourceList'}>Data Sources 관리</Link>
                         </li>
                         {/* 드롭다운 이벤트 */}
-                        <li  className="menulist"><Link to={'/floatPopulationList'}>유동인구 조회</Link>
+                        <li  className="menulist"><Link to={'/floatPopulationList'}>북촌 유동인구</Link>
                         <ul className="gn_2">
                             <li><Link to={'/community/notice'}>공지사항</Link></li>
                         </ul>

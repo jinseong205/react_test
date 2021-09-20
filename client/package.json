@@ -21,7 +21,8 @@
     "redux": "^4.1.1",
     "shallow-equal": "^1.2.1",
     "sweetalert2": "^11.1.5",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "x2js": "^3.4.2"
   },
   "scripts": {
     "start": "react-scripts start",
