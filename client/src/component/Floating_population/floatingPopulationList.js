@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from "axios";
-import X2JS from 'x2js';
+import X2JS from 'x2js'; 
 
 class floatingPopulationList extends Component {
     constructor(props){
